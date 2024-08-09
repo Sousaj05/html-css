@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid black;
+        }
+
+        nav{
+            background-color: beige;
+            padding: 3px;
+            margin: 10px;
+            box-shadow: 4px 3px 23px -5px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(147, 144, 144);
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid black;
+            box-shadow:  7px 15px -13px black;
+
+        }
+
+        article {
+            background-color: rgb(170, 163, 163);
+            padding: 2px;
+            border-radius: 12px;
+        }
+
+        article > h2{
+            text-align: center;
+        }
+
+        article > p {
+            text-align: center;
+        } 
+
+        aside > p { 
+           text-align: right;
+           padding-top: 40px;
+           padding-right: 20px;
+           margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin-left: 5px;
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+         /* alguns testes, nao liga eu do futuro*/
+        div#bola2{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border-radius: 50%;
+            margin-left: 120px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quaerat nihil amet ducimus eum aspernatur, alias adipisci quasi ut. Qui harum at non voluptas sit eius a ad voluptatem ipsa!</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jordao</p>
+    </footer>
+    <div id="bola"></div> <div id="bola2"></div>
+</body>
+</html>
