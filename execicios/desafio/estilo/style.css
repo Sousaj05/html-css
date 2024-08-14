@@ -150,8 +150,8 @@ main img.pequena{
 
 div.video {
     background-color: #69DF8B;
-    height: 300px;
     padding: 25px;
+    padding-bottom: 53%;
     margin-bottom: 10px;
     border-radius: 5px;
 
@@ -160,10 +160,12 @@ div.video {
 
 div.video > iframe {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 5%;
+    top: 5%;
 
-    transform: translate( -50%, -50%);
+    width: 90%;
+    height: 90%;
+
 }
 
 aside {
