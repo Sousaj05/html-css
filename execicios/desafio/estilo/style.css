@@ -149,19 +149,21 @@ main img.pequena{
 }
 
 div.video {
-    background-color: #2E8B43;
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
+    background-color: #69DF8B;
+    height: 300px;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 
     position: relative;
-
 }
 
-div.especial > iframe {
-    position: fixed;
-    top: 5%;
-    left: 5%;
+div.video > iframe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
 
+    transform: translate( -50%, -50%);
 }
 
 aside {
