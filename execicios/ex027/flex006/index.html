@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: burlywood;
+
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.intem {
+            background-color: brown;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#i1 {
+            order: 0;
+        }
+
+        div#i2 {
+            order: -4;
+        }
+
+        div#i3 {
+            order: -3;
+        }
+
+        div#i4 {
+            order: 0;
+        }
+
+        div#i5 {
+            order: 0;
+        }
+
+        div#i6 {
+            order: 0;
+        }
+
+        div#i7 {
+            order: 0;
+        }
+
+        div#i8 {
+            order: -6;
+        }
+
+        div#i9 {
+            order: -7;
+        }
+
+        div#i10 {
+            order: -3;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="intem" id="i1">A</div>
+        <div class="intem" id="i2">A</div>
+        <div class="intem" id="i3">N</div>
+        <div class="intem" id="i4">D</div>
+        <div class="intem" id="i5">E</div>
+        <div class="intem" id="i6">F</div>
+        <div class="intem" id="i7">G</div>
+        <div class="intem" id="i8">H</div>
+        <div class="intem" id="i9">R</div>
+        <div class="intem" id="i10">N</div>
+
+    </div>
+</body>
+</html>
