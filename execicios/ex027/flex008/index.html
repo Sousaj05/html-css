@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: burlywood;
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.intem {
+            background-color: brown;
+            color: white;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedades flex-basic</h1>
+    <div class="conteiner">
+        <div class="intem">A</div>
+        <div class="intem">Outro conteudo</div>
+        <div class="intem">C</div>
+        <div class="intem">Conteudo um pouco maior</div>
+        <div class="intem">E</div>
+        <div class="intem">Conteudo maior ainda, que vai ocupar mais espaco.</div>
+        <div class="intem">G</div>
+
+    </div>
+</body>
+</html>
